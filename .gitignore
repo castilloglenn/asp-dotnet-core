@@ -1,0 +1,45 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core files
+wwwroot/* (exclude static files if dynamically generated)
+appsettings.*.json (optional: to exclude environment-specific configuration files)
+
+# Log files
+*.log
+
+# Entity Framework migration files (optional)
+Migrations/
+
+# Sensitive settings
+appsettings.json
+appsettings.Development.json
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Visual Studio Code
+.vscode/
+
+# Rider IDE
+.idea/
+
+# JetBrains Rider temp files
+.idea/
+.idea_modules/
+*.sln.iml
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
